@@ -179,8 +179,8 @@ li {
     transition: background 0.3s ease-out;
   }
   
-  .btn-show-all .btn:hover {
-    background: var(--main-red);
+  .btn-show-all:hover {
+    background: var(--main-orange);
   }
   
   .btn-show-all:hover > i {
@@ -210,6 +210,56 @@ li {
   .contact-section-header > h2 {
     font-size: 6rem;
   }
+
+  .contact-section-header > p {
+    font-style: italic;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+
+    &:hover {
+      background-color: var(--main-orange);
+    }
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+  /* Footer */
+
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-gray);
+    border-top: 4px solid var(--main-orange);
+  }
+
+  footer > p {
+    margin: 2rem;
+  }
+
+  footer i {
+    vertical-align: middle;
+  }
+
+
+
+  
   
 
 
