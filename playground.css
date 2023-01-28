@@ -62,10 +62,9 @@ img {
 
 .nav {
   display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  top: 0;
-  left: 0;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
   width: 100%;
   background: var(--main-orange);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
@@ -74,7 +73,8 @@ img {
 
 .nav-list {
   display: flex;
-  margin-right: 2rem;
+  justify-content: space-around;
+  width: 30%;
 }
 
 .nav-list a {
@@ -91,32 +91,11 @@ li {
   background: var(--main-blue);
 }
 
-.hamburger {
-  display: none;
-}
-
-.bar,
-.fa-times {
-  width: 1.5rem;
-  height: 3px;
-  display: block;
-  color: #fff;
-  padding: 0;
-  margin: 6px;
-  transition: 0.5s;
-  background-color: #fff;
-}
-
-.bar:nth-child(1) {
-  width: 100%;
-}
-
-.bar:nth-child(2) {
-  width: 200%;
-}
-
-.bar:nth-child(3) {
-  width: 300%;
+.burger div {
+  width: 25px;
+  height: 5px;
+  color: rgb(226, 226, 226);
+  margin: 5px;
 }
 
 /* Welcome section */
