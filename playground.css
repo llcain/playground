@@ -60,9 +60,8 @@ img {
   width: 100%;
 }
 
-.nav {
+nav {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   min-height: 8vh;
   width: 100%;
