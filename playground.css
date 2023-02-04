@@ -295,6 +295,7 @@ img {
 
 .contact-details:hover {
   transform: translateY(8px);
+  color: var(--main-red);
 }
 
 /* Footer */
